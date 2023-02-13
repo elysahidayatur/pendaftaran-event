@@ -7,21 +7,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="style3.css">
     <title>Pendaftaran</title>
-	<link rel="stylesheet" href="style2.css">
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
-            <a class="navbar-brand" href="#">Informasi</a>
+            <a class="navbar-brand" href="#">Pendaftaran</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="login.php">Daftar <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="login2.php">Daftar Event </a>
+                <a class="nav-item nav-link active" href="data_pendaftaran.php">Data Pendataran<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="Pendaftaran_event.php">Data Event </a>
+                <a class="nav-item nav-link" href="logout.php">Logout </a>
             </div>
             </div>
        </div>
@@ -30,22 +31,11 @@
 
 
     <!-- jumbotron -->
-    <div class="">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
-<h3 class ="Selamat Datang Di Perlombaan event"> </h3>
-<h1 class><center>INFORMASI</center></h1>
-<h2 class><center>Assalamualikum Wr. Wb. </center></h2>
-<h2 class><center>Kami akan Mengadakan Perlombaan event untuk Memeringati Hari Isro' Mi'roj </center></h2>
-<h2 class><center>Perlombaan yang akan di adakan </center></h2>
-<h2 class><center>1. Tahfidzh </center></h2>
-<h2 class><center>2. Pidato </center></h2>
-<h2 class ><center>3. MTQ</center></h2>
-<h2 class><center>4. Kaligrafi </center></h2>
-<h2 class><center>5. Kostum(Fashion) </center></h2>
-<h3 class><center> Kami juga akan mengadakan Jalan Sehat Dan ada Doorprize Menanti</center></h3>
-<h3 class><center> Bagi Siswa-siswi yang berminat bisa daftar lewat navbar yang ada di atas </center></h3>
-<h3 class><center> Bisa memilih mau daftar diri apa daftara event</center></h3>
-<div>
+          <h1 class="display-4">Selamat Datang</h1>
+          <p class="lead">Anda Login Sebagai Admin </p>
+          <p class="lead">Anda bisa melihat Data- Data yang tersimpan di navbar data </p>
         </div>
       </div>
     <!-- akhir jumbotron -->
